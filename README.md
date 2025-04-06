@@ -1,4 +1,4 @@
-# Set Up a Virtual Network in Azure (Free Tier)
+# Set Up a Virtual Network in Azure
 
 ## Overview
 In this lab, a **Virtual Network (VNet)** is created in Azure, which is a fundamental building block for cloud infrastructure. The VNet enables secure communication between Azure resources. The free-tier networking service allows 50GB of free egress data per month, making this lab cost-effective while learning about Azure networking.
@@ -72,34 +72,30 @@ Click **Create**.
 
 ### 4. Add Subnet
 - **Subnet Name**: Enter a name for the subnet (e.g., **MyFirstSubnet**).
+![image](https://github.com/user-attachments/assets/d741e0ea-9510-4aa4-9bbe-4693e2644b64)
+![image](https://github.com/user-attachments/assets/63b05f79-43e7-4b66-9636-9210a1469299)
+
 - **Subnet Address Range**: Define the IP range for the subnet (e.g., `10.0.0.0/24`).
-  - Additional subnets can be added later if required.
+![image](https://github.com/user-attachments/assets/346c05c7-e831-4301-b94f-ea282a4a0bff)
+
+- Additional subnets can be added later if required.
 
    **Definition**: A subnet is a range of IP addresses in the VNet that are used to segment the network. This allows for network traffic isolation and management.
 
-### 5. Review and Create
-- Review all configurations to ensure the VNet is set up correctly.
-- Click **Create** to deploy the Virtual Network.
 
-   **Definition**: The **Review + Create** step allows validation of the configuration settings before final deployment of the VNet.
-
-### 6. Verify the Virtual Network
+### 5. Verify the Virtual Network
 - After the deployment process, navigate to **Virtual Networks** in the Azure portal to view the newly created VNet.
 - Click on the VNet to check the details, including the address space and subnet configuration.
 
    **Definition**: Once deployed, a Virtual Network can be managed and monitored through the Azure portal, ensuring it is correctly configured and functioning.
+![image](https://github.com/user-attachments/assets/3c317778-9bfb-4132-964b-2b790fe90a3d)
+![image](https://github.com/user-attachments/assets/85eeb981-7fa1-4032-b0b9-267dc9839900)
 
-### 7. Connect Resources (Optional)
+### 6. Connect Resources (Optional)
 - Virtual Machines and other Azure resources can now be connected to the VNet.
 - To test connectivity, a Virtual Machine or Azure App Service can be created and associated with the VNet during setup.
 
    **Definition**: A Virtual Network is the foundation for connecting and isolating resources in Azure. Linking resources to the VNet ensures secure communication between them.
-
----
-
-## Post-Lab
-- **Resource Cleanup**: After completing the lab, delete the Virtual Network if it is no longer needed to avoid unnecessary charges. Navigate to **Resource Groups** and delete the entire resource group if it is not required.
-- **Next Steps**: In subsequent labs, VNets will be used to connect resources, implement network security groups (NSGs), and manage network traffic.
 
 ---
 
