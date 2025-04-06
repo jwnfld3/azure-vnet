@@ -51,9 +51,9 @@ In this lab, a **Virtual Network (VNet)** is created in Azure, which is a fundam
 - **Definition**: The Azure portal is a web-based interface that allows users to manage Azure resources. Access is granted through an Azure subscription.
 
 ### 2. Create a Virtual Network
-1. In the left-hand menu, click on **Create a Resource**.
-2. In the "New" window, type **"Virtual Network"** in the search bar and select **Virtual Network**.
-3. Click **Create**.
+![image](https://github.com/user-attachments/assets/5df72747-dee4-4e3e-881b-af234c99b432)
+![image](https://github.com/user-attachments/assets/0b7fb743-dfa2-4b07-b5a9-20379b658047)
+Click **Create**.
 
    **Definition**: A Virtual Network (VNet) is a logical representation of a network in Azure that provides isolation, segmentation, and security for cloud resources.
 
@@ -63,8 +63,12 @@ In this lab, a **Virtual Network (VNet)** is created in Azure, which is a fundam
 - **Name**: Enter a name for the VNet (e.g., **MyFirstVNet**).
 - **Region**: Select the Azure region closest to the intended users or target infrastructure.
 - **Address Space**: Define the IP address range for the VNet (e.g., `10.0.0.0/16`).
+- Once the deployment is completed click on **Go to resource**
 
    **Definition**: A resource group is a logical container used to group related Azure resources for easy management and billing. The address space defines the range of private IP addresses that the VNet will use.
+![image](https://github.com/user-attachments/assets/57217347-c6b3-4fa9-9a61-2d598c681a81)
+![image](https://github.com/user-attachments/assets/cf1370bc-6563-4a4f-ad70-40f4dfb75512)
+![image](https://github.com/user-attachments/assets/c3079442-d5ce-4330-a42d-c8a09dd8f868)
 
 ### 4. Add Subnet
 - **Subnet Name**: Enter a name for the subnet (e.g., **MyFirstSubnet**).
